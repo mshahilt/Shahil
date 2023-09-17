@@ -6,6 +6,9 @@ body {
   background-color: #ffffff;
   overflow-x: hidden;
 }
+#jujutsu{
+  position: fixed;
+}
 
 .layout_padding {
   padding: 90px 0;
