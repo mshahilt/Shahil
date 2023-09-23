@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Password Lock Example</title>
+    <link rel="stylesheet" href="style2.css">
+</head>
+<body>
+    <div id="password-prompt">
+        <h2>Enter the password to access this site:</h2>
+        <input type="password" id="password-input" placeholder="Password">
+        <button onclick="checkPassword()">Submit</button>
+    </div>
+
+    <div id="content" style="display: none;">
+        <div class="button-container">
+            <a href="video1.html">
+            <button onclick="" class="modern-button">Could you please click here to continue</button>
+            </a>
+        </div>
+    </div>
+
+    <script>
+        function checkPassword() {
+            const enteredPassword = document.getElementById("password-input").value;
+            const correctPassword = "password"; // Change this to your desired password
+
+            if (enteredPassword === correctPassword) {
+                document.getElementById("password-prompt").style.display = "none";
+                document.getElementById("content").style.display = "block";
+            } else {
+                alert("Incorrect password. Please try again.");
+            }
+        }
+    </script>
+</body>
+</html>
