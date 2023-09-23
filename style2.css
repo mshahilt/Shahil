@@ -5,9 +5,8 @@
 #password-prompt {
     text-align: center;
     margin: 20% auto;
-    max-width: 250px;
+    max-width: 3000px;
     padding: 20px;
-    margin-left: 15px;
     background-color: #f9f9f9;
     border: 1px solid #ccc;
     border-radius: 5px;
@@ -16,8 +15,9 @@
 
 /* Style the password input field */
 #password-input {
-    width: 100%;
+    width: 96%;
     padding: 10px;
+    padding-right: 0px;
     margin: 10px 0;
     border: 1px solid #ccc;
     border-radius: 5px;
