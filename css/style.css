@@ -1,5 +1,9 @@
 /* fonts import */
 @import url("../fonts/octin_sports_rg.ttf");
+::selection {
+  background-color: #fc855d;
+  color: white; 
+}
 body {
   font-family: "Poppins", sans-serif;
   color: #0c0c0c;
